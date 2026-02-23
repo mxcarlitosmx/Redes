@@ -40,7 +40,7 @@ def enviar_archivo():
                         s.sendall(bloque)
                 
                 fin = time.time()
-                print(f"¡Envío completado en {fin - inicio:.4f} segundos!")
+                print(f"¡Envio completado en {fin - inicio:.4f} segundos!")
                 print("Marcador EOT enviado.")
             
         except Exception as e:
@@ -48,4 +48,5 @@ def enviar_archivo():
 
 if __name__ == "__main__":
     enviar_archivo()
+
 
