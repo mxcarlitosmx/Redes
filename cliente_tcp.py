@@ -7,7 +7,6 @@ IP_SERVIDOR = "192.168.1.88"
 PORT = 65432
 BUFFER_SIZE = 1024
 ARCHIVO = "archivo_prueba.txt" 
-# ---------------------
 
 def enviar_archivo():
     if not os.path.exists(ARCHIVO):
@@ -49,3 +48,4 @@ def enviar_archivo():
 
 if __name__ == "__main__":
     enviar_archivo()
+
